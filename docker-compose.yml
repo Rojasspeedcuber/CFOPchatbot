@@ -1,3 +1,9 @@
 services:
 
-  
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    container_name: wpp_bot_CFOP
+    ports:
+      - '6000:6000'
