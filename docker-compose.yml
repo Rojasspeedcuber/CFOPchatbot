@@ -4,9 +4,10 @@ services:
     image: devlikeapro/waha:latest
     container_name: wpp_bot_waha
     restart: always
-
     ports:
       - '3000:3000'
+    environment:
+      BASIC_AUTH_USER: "admin"
 
 
   api:
@@ -17,6 +18,4 @@ services:
     ports:
       - '6000:6000'
 
-  environment:
-    BASIC_AUTH_USER:
-    BASIC_AUTH_PASSWORD:
+  
