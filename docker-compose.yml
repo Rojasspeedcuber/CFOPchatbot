@@ -16,3 +16,7 @@ services:
     container_name: wpp_bot_CFOP
     ports:
       - '6000:6000'
+
+  environment:
+    BASIC_AUTH_USER: ""
+    BASIC_AUTH_PASSWORD: ""
