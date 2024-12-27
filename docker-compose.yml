@@ -18,5 +18,5 @@ services:
       - '6000:6000'
 
   environment:
-    BASIC_AUTH_USER: ""
-    BASIC_AUTH_PASSWORD: ""
+    BASIC_AUTH_USER:
+    BASIC_AUTH_PASSWORD:
